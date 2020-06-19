@@ -1,0 +1,30 @@
+/*https://commons.wikimedia.org/wiki/File:Estadio_15_de_Abril_-_Club_Atl%C3%A9tico_Uni%C3%B3n_de_Santa_Fe_-_30.jpg */
+body {
+  overflow-x: hidden;
+  background-image: url("./img/Fondo1280.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: white;
+  color: #7b7e88;
+  font-family: "Baloo Chettan 2";
+}
+
+#Titulo {
+  padding-top: 10px;
+  color: #364d84;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+#Epigrafe {
+  font-family: "Allerta";
+  color: #686666;
+}
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url(./img/Fondo640.jpg);
+  }
+}

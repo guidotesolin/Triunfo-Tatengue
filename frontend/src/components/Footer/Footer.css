@@ -1,0 +1,71 @@
+#RedesSociales {
+  background-color: rgba(255, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#Redes {
+  padding: 0;
+  margin-right: 5px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.IconoRedes {
+  color: red;
+}
+
+.IconoRedes {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: #f1f1f1;
+  border-radius: 30%;
+  box-shadow: 0 5px 15px -5px #00000070;
+  overflow: hidden;
+  position: relative;
+}
+.IconoRedes i {
+  line-height: 60px;
+  font-size: 26px;
+  transition: 0.2s linear;
+}
+.IconoRedes:hover i {
+  transform: scale(1.3);
+  color: #f1f1f1;
+}
+
+.IconoRedes::before {
+  background: red;
+}
+.IconoRedes::before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+.IconoRedes:hover::before {
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+@keyframes aaa {
+  0% {
+    top: -110%;
+    left: 90%;
+  }
+  50% {
+    top: 10%;
+    left: -30%;
+  }
+  100% {
+    top: -10%;
+    left: -10%;
+  }
+}
