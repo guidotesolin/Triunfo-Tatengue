@@ -3,19 +3,19 @@
   color: #085fb6;
   letter-spacing: 1px;
 }
-/*Aca inicia el error 
-:active,
-:hover,
-:focus {
+/* Aca inicia el error 
+IrANota:active,
+IrANota:hover,
+IrANota:focus {
   outline: 0;
   outline-offset: 0;
 }
-::before,
-::after {
+IrANota::before,
+IrANota::after {
   position: absolute;
   content: "";
 }
-Aca termina el error */
+// Aca termina el error */
 .BotonPrensa {
   position: relative;
   display: inline-block;
