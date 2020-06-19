@@ -21,7 +21,8 @@ class Formulario extends Component {
     const mensaje = document.getElementById("mensaje").value;
     axios({
       method: "POST",
-      url: "http://localhost:3000/send",
+ //     url: "http://localhost:3000/send",
+url: "https://triunfotatengue.herokuapp.com/",
       data: {
         name: nombre,
         email: mail,
@@ -33,7 +34,7 @@ class Formulario extends Component {
         this.ResetearFormulario();
         this.MostrarMensaje();
       } else if (response.data.msg === "fail") {
-        alert("Message failed to send.");
+        alert("Error al enviar. Por favor contactese a triunfotatengue@gmail.com");
       }
     });
   }
