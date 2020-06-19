@@ -20,7 +20,7 @@ export default function Home(props) {
       </div>
       <br />
       <ul>
-        <p id="Epigrafe">Nuestros puntos principales a reformar:</p>
+        <h5 id="Epigrafe">Nuestros puntos principales a reformar:</h5>
         <li>
           Establecer claramente identidad, simbología y sentido de pertenencia.
           Se definen dentro del estatuto imagen y escudo.

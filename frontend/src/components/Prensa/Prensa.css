@@ -3,19 +3,18 @@
   color: #085fb6;
   letter-spacing: 1px;
 }
-/* Aca inicia el error 
-IrANota:active,
-IrANota:hover,
-IrANota:focus {
+
+.BotonPrensa:active,
+.BotonPrensa:hover,
+.BotonPrensa:focus {
   outline: 0;
   outline-offset: 0;
 }
-IrANota::before,
-IrANota::after {
+.BotonPrensa::before,
+::after {
   position: absolute;
   content: "";
 }
-// Aca termina el error */
 .BotonPrensa {
   position: relative;
   display: inline-block;

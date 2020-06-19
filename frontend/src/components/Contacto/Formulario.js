@@ -102,7 +102,7 @@ class Formulario extends Component {
           </small>
           <br />
           <Row className="justify-content-md-center">
-            <button id="BotonEnviar" type="submit" class="button">
+            <button id="BotonEnviar" type="submit" class="buttonForm">
               <div id="translate"></div>
               <label>Enviar consulta</label>
             </button>
