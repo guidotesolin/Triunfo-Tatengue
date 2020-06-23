@@ -9,7 +9,12 @@ export default function NotFound(props) {
         <h1 id="Titulo">
           <strong>404 | NOT FOUND</strong>
         </h1>
-        <h4 id="Epigrafe">El enlace solicitado no existe</h4>
+        <br />
+        <h4 id="Epigrafe">El enlace solicitado no existe.</h4>
+        <br />
+        <h4>
+          <a href="https://www.triunfotatengue.com.ar/">Volver al inicio</a>
+        </h4>
       </div>
     </div>
   );

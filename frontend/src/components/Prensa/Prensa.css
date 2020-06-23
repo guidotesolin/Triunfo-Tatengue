@@ -4,6 +4,10 @@
   letter-spacing: 1px;
 }
 
+#TextoNoticia {
+  color: gray;
+}
+
 .BotonPrensa:active,
 .BotonPrensa:hover,
 .BotonPrensa:focus {

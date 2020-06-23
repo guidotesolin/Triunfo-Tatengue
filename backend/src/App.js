@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
+
 const RouteMail = require("./routes/RouteEmail.js");
+const RoutePrensa = require("./routes/RoutePrensa");
 
 //Settings
 app.set("port", process.env.PORT || 3000);
@@ -20,6 +22,7 @@ app.use((req, res, next) => {
 });
 
 app.use("/", RouteMail);
+app.use("/prensa", RoutePrensa);
 
 app.use("/", (req, res) => {
   res.send(
