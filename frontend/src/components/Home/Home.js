@@ -3,96 +3,135 @@ import Image from "react-bootstrap/Image";
 
 import "./Home.css";
 
-import SedeClub from "../../img/Frente.jpg";
+import ImagenHome from "../../img/Estatuto.jpg";
 
 export default function Home(props) {
   return (
     <div>
       <br />
       <h1 id="Titulo">
-        <strong>
-          Puntos más importantes de la reforma de estatuto que proponemos
-        </strong>
+        <strong>Nuestro anteproyecto de reforma de estatuto</strong>
       </h1>
       <br />
       <div>
-        <Image src={SedeClub} fluid alt="Sede del club" id="imgSede" />
+        <Image src={ImagenHome} fluid alt="Sede del club" id="imgHome" />
       </div>
       <br />
       <ul>
-        <h5 id="Epigrafe">Nuestros puntos principales a reformar:</h5>
+        <h5 id="Epigrafe">
+          Hinchas y socios de UNIÓN, desde Triunfo Tatengue queremos
+          presentarles nuestro Proyecto de reforma de Estatuto, tal como
+          habiamos prometido oportunamente. Es un trabajo hecho a conciencia,
+          con muchas horas de estudio, consultando a profesionales y observando
+          los Estatutos de instituciones prestigiosas y exitosas. Mantenemos la
+          identidad que caracteriza al Club social y deportivo más importante de
+          la región. En total trabajamos en 154 Artículos, y destacamos lo mas
+          relevante a continuación
+        </h5>
+        <br />
+        <h4>INSTITUCIONAL</h4>
+        <li>Identidad de imagen, emblema y distintivos.</li>
+        <li>Ampliación de objetivos y finalidades.</li>
+        <li>Garantía de preservación de la Institución.</li>
+        <li>Ampliación del detalle de patrimonio del Club.</li>
         <li>
-          Establecer claramente identidad, simbología y sentido de pertenencia.
-          Se definen dentro del estatuto imagen y escudo.
+          Ampliación de limitaciones a la CD sobre el patrimonio del Club.
+        </li>
+        <li>Títulos Patrimoniales.</li>
+        <br />
+        <h4>ASOCIADOS</h4>
+        <li>
+          Designación clara de tipos de socios y delimitación de las categorías:
+          HONORARIOS, VITALICIOS, ACTIVOS, JUBILADOS/PENSIONADOS, BENEFACTORES,
+          FORÁNEOS, MENORES, INFANTILES, FEDERADOS Y BECADOS.
         </li>
         <li>
-          Ordenar correctamente las categorías de asociados y se crean nuevas
-          categorías acorde a los fines y objetivos del Club: Asociados
-          Benefactores, Federados y Becados. A los efectos de darle oportunidad
-          a todos de ser socios de Unión, el socio Becado será una categoría de
-          socios para aquellos que por sus condiciones económicas no pueden
-          pagar la cuota y “pensando en los desempleados a los que la vida le
-          está jugando una mala pasada”.
+          Creación de nuevas categorías y grupos sociales: GRUPO FAMILIAR /
+          GRUPO UNIÓN SOCIAL.
         </li>
+        <li>Transformación de la Categoría de Socio Adherente o Cancha.</li>
         <li>
-          Fijar nuevas normas y proyectos de integración e inclusión social:
-          Grupo Unión Social, reformulando el Grupo Familiar atento a las nuevas
-          circunstancias de vida en el que transitan las familias unionistas. En
-          este aspecto, se revalida y empodera el trabajo que viene realizando,
-          por ejemplo, Sentimiento Tantegue con el proyecto Tate Fanático.
-        </li>
-        <li>
-          Promover el acceso a la información plena, lo cual constituye una
-          piedra basal de toda forma democrática de gobierno, “ya que la
-          información y los documentos no pertenecen a los directivos, sino al
-          club y a sus asociados y se consagra el deber de dar publicidad a
-          todos los actos de gobierno”.
-        </li>
-        <li>
-          Adecuar el estatuto a las nuevas normas jurídicas que rigen actualidad
-          con parámetros formales que no están contemplados en el actual
-          articulado. Se considera en lo pertinente el Código Penal vigente, la
-          ley del deporte o derecho deportivo. Se crea un ordenamiento legal
-          nuevo, moderno y eficaz.
-        </li>
-        <li>
-          Regular estatutariamente las identidades y facultades de Filiales,
-          Agrupaciones y Peñas.
-        </li>
-        <li>
-          Modificar de raíz la estructura de gobierno del Club, dejando 4
-          poderes bien claros y diferenciados: asamblea de socios, comisión
-          directiva, comisión fiscalizadora y comisión de Etica y Disciplina.
-        </li>
-        <li>
-          Establecer claramente los Departamentos fijos como contenido
-          inamovible que debe tener el Club. El funcionamiento de las
-          Subcomisiones quedará bajo el control de esos Departamentos. Se
-          establece la persona de Gerente general del Club. Se crea el Tribunal
-          de Honor y notables.
-        </li>
-        <li>
-          Cambiar radicalmente el sistema eleccionario de autoridades para
-          comisión directiva, con sólo 6 cargos por elegir: 1 Presidente, 3
-          Vicepresidentes, 1 Síndico Titular, 1 Síndico Suplente, “dejando en
-          claro que el Síndico es la figura que defiende al socio tatengue en
-          todos los ámbitos”. El resto de los cargos son delegados por el
-          presidente y habrá representación de las minorías en cada Subcomisión,
-          se aclara.
-        </li>
-        <li>
-          Modificar la estructura de la Comisión Directiva, eliminando suplentes
-          y convirtiendo a los 12 vocales en titulares. Esto va de la mano con
-          la reforma en el sistema electoral. La intención es que los Vocales
-          elegidos por el presidente, tomen a cargo los Departamentos fijos del
+          Incorporación de menores de 16 años cumplidos a la vida política del
           Club.
         </li>
+        <li>Limitación a Empleados del Club.</li>
         <li>
-          Se creará institucionalmente la Escuela de Dirigentes pensando en las
-          próximas generaciones con formación en derecho, economía, contabilidad
-          y relaciones públicas, por dar algunos ejemplos.
+          Reglamentación de la Suspensión, Renuncia, Cesantía, Expulsión y
+          Reincorporación del Asociado.
         </li>
+        <li>
+          Reformulación de los Derechos, Facultades y Obigaciones de los
+          Asociados.
+        </li>
+        <li>Incorporación de la Diversidad Funcional.</li>
+        <li>Incorporación de medios tecnológicos de consulta al asociado.</li>
+        <li>Ampliación y Reglamentación FILIALES.</li>
+        <li>
+          Identidad y Reglamentación AGRUPACIONES (que participan de la vida
+          política).
+        </li>
+        <li>Creación del Registro Abierto de Agrupaciones.</li>
+        <li>
+          Identidad y Reglamentación de PEÑAS y OTRAS ORGANIZACIONES AFINES.
+        </li>
+        <br />
+        <h4>GOBIERNO DE LA INSTITUCIÓN</h4>
+        <li>
+          Delimitación clara y real, reordenamiento y reglamentación de quienes
+          gobiernan el Club: LA ASAMBLEA DE REPRESENTANTES, LA COMISIÓN
+          DIRECTIVA, COMISIÓN FISCALIZADORA Y COMISIÓN DE ÉTICA Y DISCIPLINA.
+        </li>
+        <li>
+          Creación de las Comisiones FISCALIZADORA y de ETICA Y DISCIPLINA con
+          participación de la Minorías.
+        </li>
+        <li>Reglamentación clara de las ASAMBLEAS DE ASOCIADOS.</li>
+        <li>
+          2 asambleas ORDINARIAS anuales obligatorias: 1. Balance / 2.
+          Presupuesto.
+        </li>
+        <li>
+          Reestructuración de la COMISIÓN DIRECTIVA. Con participación de las
+          MINORÍAS.
+        </li>
+        <li>
+          Cambio en Duración de los mandatos (4 años). No a la reelección
+          indefinida, solo 1 reelección.
+        </li>
+        <li>
+          Reformulación de los Cargos eleccionarios y la conformación de la CD
+          final.
+        </li>
+        <li>
+          Reglamentación clara de derechos, obligaciones, facultades y forma de
+          sesionar de la CD.
+        </li>
+        <li>
+          Delimitación Estructural detallada para el funcionamiento de
+          Departamentos.
+        </li>
+        <li>Subcomisiones.</li>
+        <li>Figura del Gerente General del Club.</li>
+        <li>Tribunal de Honor.</li>
+        <br />
+        <h4>ACTO ELECCIONARIO</h4>
+        <li>Detalle exhaustivo del Acto de Elecciones.</li>
+        <li>
+          Formación Democrática y Transparente de la Junta Electoral con
+          representación de todas las Agrupaciones participantes.
+        </li>
+        <br />
       </ul>
+      <br />
+      <a
+        id="linkProyecto"
+        rel="noopener noreferrer"
+        href="https://drive.google.com/file/d/18MIA5aZ4NDLFCgCbjU7yFLpdloC_mI9B/view?usp=sharing"
+        target="_blank"
+      >
+        <div class="BtnDescargaAnteProyecto">Ver proyecto completo</div>
+      </a>
+      <br />
     </div>
   );
 }

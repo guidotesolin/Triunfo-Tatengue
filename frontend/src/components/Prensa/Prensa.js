@@ -21,7 +21,7 @@ class Prensa extends Component {
       FechaAgregado.getMonth(),
       FechaAgregado.getDate()
     );
-    const DiferenciaEnDias = parseInt((FechaActual - Agregado) / MsPorDia) - 1;
+    const DiferenciaEnDias = parseInt((FechaActual - Agregado) / MsPorDia);
     var TiempoTranscurrido;
     var UnidadTranscurrido;
     if (DiferenciaEnDias < 30) {
